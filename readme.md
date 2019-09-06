@@ -40,7 +40,7 @@ C4 模型由一系列分层的软件架构图组成，这些架构图用于描�
 本库的目的是美化PlantUml和C4 Model所绘制系统架构图的样式，统一审美而产生。
 
 详细的使用方法，可参考sample文件夹中的示例代码
-[https://github.com/xuanye/plantuml-style-c4/blob/master/samples/](https://github.com/xuanye/plantuml-style-c4/blob/master/samples/)
+[https://github.com/transtone/plantuml-style-c4/blob/master/samples/](https://github.com/transtone/plantuml-style-c4/blob/master/samples/)
 
 <!--more-->
 
@@ -50,7 +50,7 @@ C4 模型由一系列分层的软件架构图组成，这些架构图用于描�
 
 ```
 @startuml sequence-sample
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/core.puml
 ' 如果使用本地，则需要注释上一行，取消注释下一行
 '!include core.puml
 
@@ -72,7 +72,7 @@ RED_ARROW
 ```
 @startuml 示例类图
 
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/core.puml
 ' uncomment the following line and comment the first to use locally
 '!include core.puml
 
@@ -111,7 +111,7 @@ IInterfaceA <|-- "IInterfaceA`1"
 
 ```
 @startuml state-sample
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/core.puml
 ' uncomment the following line and comment the first to use locally
 '!include core.puml
 
@@ -156,7 +156,7 @@ Chunked --> [*] : Ok
 
 ```
 @startuml usecase-sample
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/core.puml
 ' uncomment the following line and comment the first to use locally
 '!include core.puml
 
@@ -188,7 +188,7 @@ UserCasePackage("checkout","买单") {
 
 ```
 @startuml activity-new-sample
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/core.puml
 ' uncomment the following line and comment the first to use locally
 '!include core.puml
 
@@ -235,7 +235,7 @@ stop
 
 ```
 @startuml element
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/core.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/core.puml
 ' uncomment the following line and comment the first to use locally
 '!include core.puml
 
@@ -274,7 +274,7 @@ usecase usecase
 ```
 @startuml system-context-diagram
 
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/c4_context.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/c4_context.puml
 ' uncomment the following line and comment the first to use locally
 '!include c4_context.puml
 
@@ -304,7 +304,7 @@ Rel(banking_system, mainframe, "Uses")
 
 ```
 @startuml container-diagram
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/c4_container.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/c4_container.puml
 ' uncomment the following line and comment the first to use locally
 '!include c4_container.puml
 
@@ -354,7 +354,7 @@ Rel_Neighbor(backend_api, banking_system, "Uses", "sync/async, XML/HTTPS")
 
 ```
 @startuml component-diagram
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/c4_component.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/c4_component.puml
 ' uncomment the following line and comment the first to use locally
 '!include c4_component.puml
 
@@ -398,7 +398,7 @@ Rel(ma, accounts, "Uses", "JSON/HTTPS")
 
 ```
 @startuml system-context-extend-diagram
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/c4_context.puml
+!includeurl https://raw.githubusercontent.com/transtone/plantuml-style-c4/master/c4_context.puml
 ' uncomment the following line and comment the first to use locally
 '!include c4_context.puml
 
